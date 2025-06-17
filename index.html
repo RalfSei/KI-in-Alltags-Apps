@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KI in Alltags-Apps</title>
+  <style>
+    :root {
+      --bg-color: #fdfcfb;
+      --text-color: #1a1a1a;
+      --accent-color: #3366cc;
+      --nav-bg: #e6f0ff;
+      --highlight-bg: #e0e7ff;
+      --border-color: #ccd6f6;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 1rem;
+      max-width: 100%;
+      margin: auto;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: var(--accent-color);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .fakt {
+      background: var(--highlight-bg);
+      padding: 1rem;
+      border-left: 4px solid var(--accent-color);
+    }
+    nav {
+      margin-bottom: 2rem;
+      background: var(--nav-bg);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 3rem;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>KI ist schon da – in (fast) jeder App</h1>
+
+    <nav>
+      <strong>Inhalt:</strong>
+      <ul>
+        <li><a href="#einschaetzung">Wieviele Apps nutzen externe KI?</a></li>
+        <li><a href="#daten">Sensible Daten? In der Cloud!</a></li>
+        <li><a href="#transparenz">Transparenz statt Einzelfokus</a></li>
+        <li><a href="#quellen">Quellen</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <p>Viele Nutzer*innen äußern Bedenken über KI-Dienste wie ChatGPT oder Gemini – dabei ist künstliche Intelligenz längst in unzählige Alltagsanwendungen integriert. Häufig passiert das im Hintergrund über Schnittstellen (APIs) zu großen KI-Anbietern wie OpenAI, Google oder Microsoft.</p>
+    </section>
+
+    <section id="einschaetzung">
+      <h2>Wieviele Apps nutzen externe KI?</h2>
+      <p>Eine genaue Zahl gibt es nicht, aber eine realistische Schätzung lautet:</p>
+      <ul>
+        <li>30–50 % der Business-Software sendet Daten an große KI-Anbieter.</li>
+        <li>Viele Konsumenten-Apps nutzen KI über Dritte – oft ohne Hinweis.</li>
+        <li>Start-ups setzen besonders häufig auf KI-APIs von außen (60–80 %).</li>
+      </ul>
+      <div class="fakt">
+        <strong>Fakt:</strong> KI wird oft genutzt, ohne dass Nutzer*innen davon wissen. Der Unterschied zu ChatGPT: Dort ist die KI sichtbar.
+      </div>
+    </section>
+
+    <section id="daten">
+      <h2>Sensible Daten? In der Cloud!</h2>
+      <p>Viele KI-gestützte Funktionen analysieren Daten automatisch – etwa Texte, Kundendaten oder Dokumente. Werden dafür externe Dienste eingebunden, können sensible Inhalte auf fremde Server gelangen.</p>
+      <ul>
+        <li>CRM-Systeme analysieren Kundendaten mit KI</li>
+        <li>Schreib-Tools prüfen Texte mit Cloud-KI</li>
+        <li>Online-Notizen durchsuchen Inhalte mit generativer KI</li>
+      </ul>
+    </section>
+
+    <section id="transparenz">
+      <h2>Transparenz statt Einzelfokus</h2>
+      <p>Die Debatte über KI-Nutzung sollte nicht nur einzelne Tools wie ChatGPT betreffen. Viel wichtiger ist die Frage: <strong>Wo fließen eigentlich Daten hin – und wer sieht sie?</strong></p>
+      <p>Vertrauen entsteht durch Offenheit – nicht durch Verdrängung.</p>
+    </section>
+
+    <section id="quellen">
+      <h2>Quellen</h2>
+      <ul>
+        <li><a href="https://platform.openai.com/docs">OpenAI API Dokumentation</a></li>
+        <li><a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679">DSGVO – Verordnung (EU) 2016/679</a></li>
+        <li><a href="https://arxiv.org/abs/2307.10169">arXiv: Risks and Challenges of LLMs (2023)</a></li>
+        <li><a href="https://www.nature.com/articles/s41591-024-02943-6">Nature Medicine: AI tools pose risks to patient data privacy (2024)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      Erstellt mit ChatGPT · Letzte Aktualisierung: Juni 2025
+    </footer>
+  </main>
+</body>
+</html>
